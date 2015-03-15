@@ -1,67 +1,54 @@
-# SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dohxis.github.io" # the base hostname & protocol for your site
+baseurl: 
+url: 
 
-# THEME-SPECIFIC CONFIGURATION
-theme:
-  # Meta
-  title: Dohxis
-  avatar: avatar.png
-  gravatar: 3a741abbbd09d0b40db3327859840eef
-  description: "Personal portholio page" # used by search engines
+harmony:
+  name: Dohxis
+  # Little description about your site
+  description: Portfolio / Blog
+  # 'meta_description:' Write an awesome description for your new site here.
+  # It will appear in your document head meta (for Google search results) and 
+  # in your feed.xml site description.
+  meta_description: > # 
+   Welcome to my personal blog and portfolio page!
+   https://dohxis.github.io
+  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+  author: # Author details
+    name: Dohxis
+    email: dohxis@gmail.com
+    url: http://dohxis.github.io
 
-  # Header and footer text
-  # header_text: >
-  #   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-58140167-1
 
-  #   <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type</a>
+  # Profile links, leave blank to ignore
+  social: 
+    github: Dohxis
+    twitter: Dohxis
+    facebook: 
+    gplus:
+    dribble: 
+    pinterest: 
+  # Toggle disclaimer in footer
+  show_disclaimer: false
 
-  # Icons
-  rss: false
-  email_address: dohxis@gmail.com
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: "dohxis"
-  google_plus:
-  instagram:
-  linkedin:  # full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # full URL
-  steam:
-  tumblr:
-  twitter: "Dohxis"
-  wordpress:
-  youtube:
+# Conversion / Build settings 
+markdown:    kramdown
+# This is how you put pygments config in jekyll 2.0 instead of pygments: true
+highlighter: pygments 
 
-  # Scripts
-  google_analytics: "UA-58140167-1"
-  disqus_shortname:
+# Permalinks
+permalink:        pretty
 
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Previous"
-  str_continue_reading: "Full article"
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
 
-  # Colors, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: pygments
+# Sass conversion configs
 sass:
-  sass_dir: _sass
-  style: :compressed
+    sass_dir: assets/css/_sass
+    style: :compressed

@@ -1,14 +1,17 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
-feature-img: "img/sample_feature_img.png"
 ---
 
-Welcome to my portfolio! There you can see all my projects and jam entries. For more information you can contact me on [Twitter](https://twitter.com/dohxis)! Thanks.
+Hello, my name is Domantas, also know as Dohxis. I am indie game developer, technology enthusiast and Linux fanboy!
+This is my personal blog and portfolio.
 
-**Projects**:<br />
-[Portum](http://portumgame.com) - Virtual world simulator where you can run your country to victory! It’s my long-term project built with PHP.
+### Projects
+[c2Rail](https://github.com/Dohxis/c2Rail) - Simple PHP content management system created with Silex.
 
-**Jams**:<br />
+### Jams
 [Coinarium](http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=41073) - My first ever project for Ludum Dare. It’s a game where you need to collect coins and avoid enemies. It was made in 28 hours with Haxe and HaxeFlixel.
+
+### Contact me
+You can find me on [Github](https://github.com/dohxis) / [Twitter](https://twitter.com/dohxis)

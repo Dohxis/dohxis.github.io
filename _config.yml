@@ -1,54 +1,14 @@
-baseurl: 
-url: 
 
-harmony:
-  name: Dohxis
-  # Little description about your site
-  description: Portfolio / Blog
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and 
-  # in your feed.xml site description.
-  meta_description: > # 
-   Welcome to my personal blog and portfolio page!
-   https://dohxis.github.io
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
-  author: # Author details
-    name: Dohxis
-    email: dohxis@gmail.com
-    url: http://dohxis.github.io
+title: My Resume
+url: 'http://dohxis.github.io'
+baseurl: ''
 
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-58140167-1
+style: styles-4
 
-  # Profile links, leave blank to ignore
-  social: 
-    github: Dohxis
-    twitter: Dohxis
-    facebook: 
-    gplus:
-    dribble: 
-    pinterest: 
-  # Toggle disclaimer in footer
-  show_disclaimer: false
+name: Domantas Mauruča
+tagline: Backend Developer
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-# Conversion / Build settings 
-markdown:    kramdown
-# This is how you put pygments config in jekyll 2.0 instead of pygments: true
-highlighter: pygments 
-
-# Permalinks
-permalink:        pretty
-
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
-
-# Sass conversion configs
-sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
+email: dohxis@gmail.com
+github: dohxis
+twitter: '@dohxis'

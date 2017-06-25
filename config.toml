@@ -1,0 +1,17 @@
+baseURL = "http://dohxis.github.io/"
+languageCode = "en-us"
+title = "Domantas Mauruča Portfolio"
+theme = "theme"
+tags = ["portfolio", "web", "development", "php", "nodejs", "python", "web design"]
+config = "config.toml"
+
+[Params]
+    tagline = "Domantas Mauruča"
+    authot = "Domantas Mauruča"
+    description = "Personal portfolio website"
+    twitter = "dohxis"
+    linkedin = "dohxis"
+    github = "doxhis"
+    email = "domantas.mauruca@gmail.com"
+    customCSS = true
+    ajaxFormspree = true

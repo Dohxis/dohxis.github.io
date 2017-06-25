@@ -4,6 +4,7 @@ title = "Domantas Mauruča Portfolio"
 theme = "theme"
 tags = ["portfolio", "web", "development", "php", "nodejs", "python", "web design"]
 config = "config.toml"
+publishDir = "docs"
 
 [Params]
     tagline = "Domantas Mauruča"
